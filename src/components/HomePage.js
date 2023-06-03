@@ -56,6 +56,7 @@ class HomePage extends Component {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
+                </li>
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="/">
