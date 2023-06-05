@@ -39,7 +39,7 @@ function Login() {
 
   return (
     <div>
-         <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#567189" }}>
+      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#567189" }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
@@ -49,7 +49,7 @@ function Login() {
               className="d-inline-block align-top"
               alt="logo"
             />
-            Power Fitness
+            Skill Mastery
           </a>
           <form className="d-flex">
             <input
@@ -83,36 +83,6 @@ function Login() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  About
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Web Development
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Mobile App Development
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Digital Marketing
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/Login">
                   Login
                 </a>
               </li>
@@ -125,7 +95,6 @@ function Login() {
           </div>
         </div>
       </nav>
-
       <section className="vh-100" style={{ backgroundColor: "#BDCDD6" }}>
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">

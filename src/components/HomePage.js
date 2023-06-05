@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import '../components/jumbotron.css';
 
 class HomePage extends Component {
   render() {
@@ -15,7 +16,7 @@ class HomePage extends Component {
               className="d-inline-block align-top"
               alt="logo"
             />
-            Power Fitness
+            Skill Mastery
           </a>
           <form className="d-flex">
             <input
@@ -43,41 +44,6 @@ class HomePage extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="HomePage">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  About
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                </li>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Web Development
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Mobile App Development
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Digital Marketing
-                    </a>
-                  </li>
-                </ul>
-              <li className="nav-item">
                 <a className="nav-link" href="/">
                   Login
                 </a>
@@ -91,144 +57,70 @@ class HomePage extends Component {
           </div>
         </div>
       </nav>
-        <div className="homebg" style={{ backgroundColor: "#BDCDD6", fontFamily: 'Spot' }}>
-          <Container>
-            <div className="jumbotron">
-              <h3 className="display-4" style={{ fontSize: '50px' }}>Unlock Your Potential as a Single Parent with Skill Mastery</h3>
-              <p className="lead">Welcome to our online training courses dedicated to helping single parents unlock their potential through skill mastery.</p>
-              <hr className="my-4" />
-              <p>Join us today and start your journey towards personal growth and success!</p>
+        <div className="landing-page">
+          <header className="jumbotron">
+            <div className="container">
+              <h1>Master New Skills<br />as a Single Parent</h1>
+              <p>Join our online training courses and enhance your skills while balancing your responsibilities as a single parent.</p>
+              <a href="/Explore" className="btn btn-primary btn-lg">Explore Courses</a>
             </div>
-            <Container style={{ backgroundColor: "white", padding: "20px" }}>
-              <Row>
-                <Col md={4} sm={6}>
-                  <div className="card">
-                    <img src="https://static.vecteezy.com/system/resources/previews/004/759/058/original/change-career-decide-to-go-different-path-or-direction-challenge-to-find-new-way-or-opportunity-progress-to-other-choice-or-journey-concept-businessman-change-from-arrow-sign-to-other-direction-vector.jpg" className="card-img-top" alt="Fitness Programs" />
-                    <div className="card-body">
-                      <h5 className="card-title">Fitness Programs</h5>
-                      <p className="card-text">1. Discover your strengths with Alison's Workplace Personality Assessment.</p>
-                      <a href="#" className="btn btn-primary">Learn More</a>
-                    </div>
-                  </div>
-                </Col>
-                <Col md={4} sm={6}>
-                  <div className="card">
-                    <img src="https://static.vecteezy.com/system/resources/previews/002/167/289/non_2x/business-decision-making-career-path-work-direction-or-choose-the-right-way-to-success-concept-confusing-businessman-looking-at-multiple-road-sign-with-question-mark-and-thinking-which-way-to-go-vector.jpg" className="card-img-top" alt="Healthy Eating" />
-                    <div className="card-body">
-                      <h5 className="card-title">Healthy Eating</h5>
-                      <p className="card-text">2. Find your perfect career. Explore 850+ career paths with related courses </p>
-                      <a href="#" className="btn btn-primary">Learn More</a>
-                    </div>
-                  </div>
-                </Col>
-                <Col md={4} sm={6}>
-                  <div className="card">
-                    <img src="https://media.licdn.com/dms/image/D5612AQGjikICNeJJ_A/article-cover_image-shrink_720_1280/0/1660154122832?e=2147483647&v=beta&t=_4o7cyhCMTWni7iZ8DvS5pJ85B4huEtKN6vXz-DDuds" className="card-img-top" alt="Mind and Body" />
-                    <div className="card-body">
-                      <h5 className="card-title">Mind and Body</h5>
-                      <p className="card-text">3. Create a job-winning Resumé with Alison’s Resumé Builder and apply for your dream job .</p>
-                      <a href="#" className="btn btn-primary">Learn More</a>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-            <section class="services py-md-5 py-4" id="services">
-              <div class="container py-md-5 py-4">
-                <div class="divider-shape"></div>
-                <h2>Services</h2>
-                <p>This is the services section</p>
-                <div class="row mt-4">
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Digital Marketing</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Social Media</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">SEO</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-4">
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Paid Advertisement</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Email Marketing</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Conversion optimization</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-4">
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Reputation Management</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Influencer Marketing</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="card shadow-sm">
-                      <div class="card-body d-flex justify-content-between">
-                        <h4 class="card-title">Facebook Marketing</h4>
-                        <i class="ri-arrow-right-line fs-4"></i>
-                      </div>
-                    </div>
+          </header>
+
+          <section id="courses" className="container">
+            <h2>Featured Courses</h2>
+            <div className="row">
+              <div className="col-md-4">
+                <div className="card">
+                  <img src="https://whatfix.com/blog/wp-content/uploads/2022/12/digital-transformation-3.png" className="card-img-top" alt="Course 1" />
+                  <div className="card-body">
+                    <h5 className="card-title">DISCOVER</h5>
+                    <p className="card-text">Discover your strengths with Skill's Mastery Workplace Personality Assessment</p>
+                    <a href="#" className="btn btn-primary">Learn More</a>
                   </div>
                 </div>
               </div>
-            </section>
-          </Container>
+              <div className="col-md-4">
+                <div className="card">
+                  <img src="https://thehubbackend.com/media/36694-How-to-Choose-a-Career-Path_.jpg" className="card-img-top" alt="Course 2" />
+                  <div className="card-body">
+                    <h5 className="card-title">EXPLORE</h5>
+                    <p className="card-text">Find your perfect career. Explore 850+ career paths with related courses </p>
+                    <a href="#" className="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card">
+                  <img src="https://www.corporatecomplianceinsights.com/wp-content/uploads/2021/04/shutterstock_700543810-750x536-1.jpeg" className="card-img-top" alt="Course 3" />
+                  <div className="card-body">
+                    <h5 className="card-title">APPLY</h5>
+                    <p className="card-text">Create a job-winning Resumé with Skill's Mastery Resumé Builder and apply for your dream job .</p>
+                    <a href="#" className="btn btn-primary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="container">
+            <h2>About Us</h2>
+            <p>
+            Welcome to our website! We are dedicated to providing a free online course specifically designed for
+             single parents. Our course aims to support and empower single parents by offering valuable resources, practical tips, 
+             and expert guidance to help navigate the unique challenges of single parenting. From time management and 
+             communication skills to self-care and goal setting, our course covers a wide range of topics to enhance personal and professional growth. Join us today and take advantage 
+            of this opportunity to invest in yourself and build a brighter future as a single parent.</p>
+          </section>
+
+          <footer className="footer bg-dark text-light py-3 mt-5">
+            <Container>
+              <Row>
+                <Col>
+                  <p className="text-center">&copy; 2023 Your Website Name. All rights reserved.</p>
+                </Col>
+              </Row>
+            </Container>
+          </footer>
         </div>
-        <footer className="footer bg-dark text-light py-3 mt-5">
-          <Container>
-            <Row>
-              <Col>
-                <p className="text-center">&copy; 2023 Your Website Name. All rights reserved.</p>
-              </Col>
-            </Row>
-          </Container>
-        </footer>
       </div>
     );
   }
